@@ -47,19 +47,23 @@ body {
   box-shadow: 0 2px 5px rgba(255,102,0,0.6);
 }
 
-/* Hero section */
+/* Hero section - fixed size background image */
 .hero {
   position: relative;
-  background-size: cover;
+  width: 600px;               /* Fixed width */
+  height: 400px;              /* Fixed height */
+  margin: 0 auto;             /* Center horizontally */
+  background-image: url('illustration-digital-marketing.jpg');
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: 600px 400px; /* Fixed size, no scaling */
+  overflow: hidden;           /* Hide any overflow */
   color: white;
-  padding: 6rem 2rem; /* balanced padding */
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 420px;
+  text-align: center;
 }
 
 /* Dark overlay to improve text readability */
@@ -67,7 +71,7 @@ body {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity if needed */
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
@@ -173,18 +177,14 @@ ul li a:hover {
 }
 
 /* Responsive Design */
+/* No specific responsive changes for hero since it's fixed size */
 @media (max-width: 600px) {
-  .hero {
-    padding: 4rem 1rem;               /* reduce padding on small screens */
-    background-position: center top; /* shift focus point on smaller devices */
-  }
-
   .hero-content h1 {
-    font-size: 2rem;                  /* scale down heading */
+    font-size: 2rem;
   }
 
   .hero-content p {
-    font-size: 1.1rem;                /* scale down paragraph */
+    font-size: 1.1rem;
   }
 
   .navbar nav a {
