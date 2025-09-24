@@ -280,3 +280,37 @@ ul li a:hover {
   }
 }
 
+/* === Short-Form Video Platform Comparison Styles === */
+.content {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.content h1 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 2rem;
+}
+
+.platform-section {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.platform-section h2 {
+  color: #ff6600;
+  margin-top: 0;
+}
+
+.platform-section ul {
+  padding-left: 1.2rem;
+}
+
+.platform-section li {
+  margin-bottom: 0.5rem;
+}
+
