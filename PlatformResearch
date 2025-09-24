@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Short-Form Video Platforms | Marketing Maven</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🚀 Marketing Maven</div>
+    <nav>
+      <a href="portfolio.html">Back</a>
+      <a href="Write-Up.html">Next</a>
+    </nav>
+  </header>
+
+  <!-- ✅ Comparison Content Starts Here -->
+  <main class="content">
+    <h1>Comparison: TikTok vs Instagram Reels vs YouTube Shorts</h1>
+
+    <section class="platform-section">
+      <h2>TikTok</h2>
+      <ul>
+        <li><strong>Parent Company:</strong> ByteDance</li>
+        <li><strong>Launched:</strong> 2016</li>
+        <li><strong>App Type:</strong> Standalone</li>
+        <li><strong>Popular Content:</strong> Funny skits, dance challenges, tutorials, memes</li>
+        <li><strong>Discovery:</strong> Personalized "For You" page, algorithm based on engagement and watch time</li>
+        <li><strong>Audience:</strong> Mostly 16–24, average usage ~50 minutes/day</li>
+        <li><strong>Monetization:</strong> Creator Fund, brand deals, gifts</li>
+        <li><strong>Example Creator:</strong> <strong>Khaby Lame</strong> – known for wordless, funny reaction videos</li>
+        <li><strong>Pros:</strong> Easy to go viral, creative tools</li>
+        <li><strong>Challenges:</strong> Monetization, privacy concerns</li>
+      </ul>
+    </section>
+
+    <section class="platform-section">
+      <h2>Instagram Reels</h2>
+      <ul>
+        <li><strong>Parent Company:</strong> Meta (Facebook)</li>
+        <li><strong>Launched:</strong> 2020</li>
+        <li><strong>App Type:</strong> Built into Instagram</li>
+        <li><strong>Popular Content:</strong> Fashion, beauty, workouts, lifestyle, recipes</li>
+        <li><strong>Discovery:</strong> Explore page and feed, algorithm favors engagement and trends</li>
+        <li><strong>Audience:</strong> Mostly 18–34, average usage ~30 minutes/day</li>
+        <li><strong>Monetization:</strong> Bonuses, affiliate links, shopping features</li>
+        <li><strong>Example Brand:</strong> <strong>Nike</strong> – motivational clips and product promos</li>
+        <li><strong>Pros:</strong> Great for sales and e-commerce</li>
+        <li><strong>Challenges:</strong> Harder to go viral, can feel too commercial</li>
+      </ul>
+    </section>
+
+    <section class="platform-section">
+      <h2>YouTube Shorts</h2>
+      <ul>
+        <li><strong>Parent Company:</strong> Google (YouTube)</li>
+        <li><strong>Launched:</strong> 2020 (Global in 2021)</li>
+        <li><strong>App Type:</strong> Part of YouTube</li>
+        <li><strong>Popular Content:</strong> How-tos, funny clips, reviews, music</li>
+        <li><strong>Discovery:</strong> Shorts tab and homepage shelf, boosted by watch time</li>
+        <li><strong>Audience:</strong> Mostly 18–34, growing fast with ~40 minutes/day total YouTube time</li>
+        <li><strong>Monetization:</strong> Shorts Fund, ads, fan support</li>
+        <li><strong>Example Creator:</strong> <strong>Brittany Broski</strong> – comedic reaction videos</li>
+        <li><strong>Pros:</strong> Huge built-in audience, link to long-form content</li>
+        <li><strong>Challenges:</strong> Monetization catching up, less “viral” culture</li>
+      </ul>
+    </section>
+  </main>
+  <!-- ✅ Comparison Content Ends Here -->
+
+  <footer>
+    <p>© 2025 Marketing Maven | Empowering brands to grow</p>
+  </footer>
+</body>
+</html>
