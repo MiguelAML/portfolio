@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Business Website Project | Marketing Maven</title>
+  <link rel="stylesheet" href="styles.css" />
 
+  <style>
+    /* --- Table Styling --- */
+    .project-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 40px;
+    }
+
+    .project-table th {
+      background: #2f6f4e;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+
+    .project-table td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+      background: #f7f7f7;
+    }
+
+    .status {
+      font-weight: bold;
+      color: red;
+    }
+
+    .table-title {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🚀 Marketing Maven</div>
+    <nav>
+      <a href="figma.html">Back</a>
+      <a href="portfolio.html">Portfolio</a>
+    </nav>
+  </header>
+
+  <main class="project-page">
+    <center><h1>Figma</h1></center>
+    <p class="description">
+      This is a responsive business landing page project showcasing services, customer testimonials, and a clean professional design.
+    </p>
+
+    <div class="image-wrapper">
+      <img src="Screenshot 2025-10-17 134831.png" alt="Business Website Project Screenshot" />
+    </div>
+
+    <!-- --- 🔥 NEW: Project Sprint Table Inserted Below --- -->
+    <h2 class="table-title">Project Timeline</h2>
+
+    <table class="project-table">
+      <tr>
+        <th>Sprint</th>
+        <th>Dates</th>
+        <th>Goal</th>
+        <th>Tasks</th>
+        <th>Deliverables</th>
+        <th>Status</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Nov 11–17</td>
+        <td>Initial planning and MVP</td>
+        <td>
+          - Research target audience<br>
+          - Create 1–2 personas<br>
+          - Define goals and KPIs
+        </td>
+        <td>
+          - Persona document<br>
+          - Campaign goal summary
+        </td>
+        <td class="status">To do</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Nov 18–24</td>
+        <td>Early prototypes</td>
+        <td>
+          - Design 2–3 social posts<br>
+          - Draft 1 email template<br>
+          - Build basic landing page
+        </td>
+        <td>
+          - Mockups<br>
+          - Email & landing page draft
+        </td>
+        <td class="status">To do</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Nov 25 – Dec 1</td>
+        <td>Refinements</td>
+        <td>
+          - Collect feedback<br>
+          - Improve visuals & layout<br>
+          - Finalize content calendar
+        </td>
+        <td>
+          - Updated visuals<br>
+          - Completed content calendar
+        </td>
+        <td class="status">To do</td>
+      </tr>
+
+      <tr>
+        <td>4</td>
+        <td>Dec 2–8</td>
+        <td>Simulated launch</td>
+        <td>
+          - Present to class/test group<br>
+          - Create mock analytics
+        </td>
+        <td>
+          - Presentation slides<br>
+          - Analytics report
+        </td>
+        <td class="status">To do</td>
+      </tr>
+
+      <tr>
+        <td>5</td>
+        <td>Dec 9–15</td>
+        <td>Optimization</td>
+        <td>
+          - Analyze performance<br>
+          - Adjust visuals & timing
+        </td>
+        <td>
+          - Revised materials<br>
+          - Updated metrics
+        </td>
+        <td class="status">To do</td>
+      </tr>
+
+      <tr>
+        <td>6</td>
+        <td>Dec 16–22</td>
+        <td>Final presentation</td>
+        <td>
+          - Compile all materials<br>
+          - Deliver presentation<br>
+          - Write reflection
+        </td>
+        <td>
+          - Final deck<br>
+          - Reflection report
+        </td>
+        <td class="status">To do</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>© 2025 Marketing Maven | Empowering brands to grow</p>
+  </footer>
+</body>
+</html>
