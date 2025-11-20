@@ -422,4 +422,95 @@ ul li a:hover {
   }
 }
 
+/* === Stunning Modern Project Timeline Table === */
+
+.table-title {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #004080;
+  letter-spacing: 1px;
+}
+
+/* Table container for shadow + rounded corners */
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  animation: fadeIn 0.8s ease;
+}
+
+/* Gradient header */
+.project-table th {
+  padding: 1rem;
+  background: linear-gradient(90deg, #004080, #0074d9);
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* Table rows */
+.project-table td {
+  padding: 1rem;
+  background: #f8fbff;
+  border-bottom: 1px solid #dce6f2;
+  font-size: 0.97rem;
+  color: #333;
+}
+
+/* Alternating rows */
+.project-table tr:nth-child(even) td {
+  background: #eef4ff;
+}
+
+/* Hover glow */
+.project-table tr:hover td {
+  background: #e3edff;
+  transition: 0.25s ease;
+}
+
+/* Status badges */
+.status {
+  font-weight: 700;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 8px;
+  color: white;
+  background: #ff3b3b; /* red for "To do" */
+  text-align: center;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 700px) {
+  .project-table th,
+  .project-table td {
+    padding: 0.7rem;
+    font-size: 0.82rem;
+  }
+
+  .table-title {
+    font-size: 1.7rem;
+  }
+}
+
+
 
