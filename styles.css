@@ -603,6 +603,308 @@ ul li a:hover {
   box-shadow: 0 6px 18px rgba(255, 102, 0, 0.35);
 }
 
+/* ============================================ */
+/* GLOWIFY SPRINT 2 STYLES - ADDED TO EXISTING */
+/* ============================================ */
 
+/* Glowify Hero Background */
+.glowify-hero {
+  background: linear-gradient(rgba(0, 64, 128, 0.85), rgba(0, 64, 128, 0.9)), 
+              url('https://images.unsplash.com/photo-1556228578-9c360e1d8d34?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+}
 
+/* Personas Grid */
+.personas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
 
+.persona-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 5px solid #FF8BC6;
+}
+
+.persona-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.persona-card:nth-child(2) {
+  border-top-color: #8BC6FF;
+}
+
+.persona-header {
+  background: #004080;
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.persona-icon {
+  font-size: 2rem;
+  opacity: 0.9;
+}
+
+.persona-body {
+  padding: 1.5rem;
+}
+
+.detail-item {
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-label {
+  font-weight: 700;
+  min-width: 100px;
+  color: #004080;
+}
+
+.insight-badge {
+  background: #ff6600;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+/* Social Media Grid */
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.social-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.social-card:hover {
+  transform: translateY(-3px);
+}
+
+.social-preview {
+  background: #f5f7fa;
+  padding: 2rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.post-type {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #004080;
+  color: white;
+  padding: 0.25rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.social-content {
+  padding: 1.5rem;
+}
+
+.platform {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #004080;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Email Templates */
+.email-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.email-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 5px solid #004080;
+}
+
+.email-header {
+  background: #004080;
+  color: white;
+  padding: 1.5rem;
+}
+
+.email-subject {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.email-body {
+  padding: 1.5rem;
+}
+
+.email-cta {
+  display: inline-block;
+  background: #ff6600;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.email-cta:hover {
+  background: #e65c00;
+}
+
+/* Landing Page Wireframe */
+.wireframe-container {
+  background: #f5f7fa;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.wireframe {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.wireframe-section {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 2px dashed #d0d0d0;
+  border-radius: 8px;
+}
+
+.section-label {
+  font-weight: 700;
+  color: #004080;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Objectives List */
+.objectives-list {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.objective-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border-left: 4px solid #004080;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.objective-icon {
+  color: #ff6600;
+  font-size: 1.2rem;
+  margin-top: 0.25rem;
+}
+
+/* Tools Grid */
+.tools-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.tool {
+  background: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  font-weight: 600;
+}
+
+/* Button styling */
+.btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 0.9rem 1.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.25s ease;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #e65c00;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(255, 102, 0, 0.35);
+}
+
+/* Responsive Adjustments for Glowify */
+@media (max-width: 768px) {
+  .personas-grid,
+  .social-grid,
+  .email-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .detail-item {
+    flex-direction: column;
+  }
+  
+  .detail-label {
+    min-width: auto;
+    margin-bottom: 0.25rem;
+  }
+  
+  .wireframe-section div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .wireframe-section div > div {
+    margin-top: 1rem;
+  }
+}
